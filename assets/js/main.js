@@ -29,7 +29,6 @@ function Calculadora(){
 
     this.BtnParaDisplay = texto=> {
         this.display.value += texto; 
-        this.display.focus();
     };
     this.ClearDisplay = ()=> this.display.value = "";
     this.DellDisplay = ()=> this.display.value = this.display.value.slice(0, -1);
